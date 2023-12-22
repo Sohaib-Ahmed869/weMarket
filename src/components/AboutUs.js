@@ -17,7 +17,7 @@ const AboutUs = () => {
   
   return (
     <React.Fragment>
-      <section className="section about bg-light" id="about">
+      <section className="section about" id="about" style={{ background: "#ECF9FF"}}>
         <Container>
           <Row className="text-center">
             <Col lg={12}>

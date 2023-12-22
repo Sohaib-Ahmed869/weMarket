@@ -62,20 +62,20 @@ const Navbar1 = () => {
                         <div ref={navMenuRef} className="collapse navbar-collapse" id="navbarCollapse">
                             <ul className="navbar-nav ms-auto" id="navbar-navlist">
                                 <li className={activeItem === 'Home' ? 'active' : 'nav-item'} onClick={() => setActiveItem('Home')} >
-                                    <Nav.Link href="#home">Home</Nav.Link>
+                                    <Nav.Link href="/weMarket/">Home</Nav.Link>
                                 </li>
                                 <li className={activeItem === 'About Us' ? 'active' : 'nav-item'} onClick={() => setActiveItem('About Us')}>
-                                    <Nav.Link href="#pricing">About Us</Nav.Link>
+                                    <Nav.Link href="/weMarket#pricing">About Us</Nav.Link>
                                 </li>
                                 <li className={activeItem === 'Contact' ? 'active' : 'nav-item'} onClick={() => setActiveItem('Contact')}>
-                                    <Nav.Link href="#contact">Contact</Nav.Link>
+                                    <Nav.Link href="/weMarket#contact">Contact</Nav.Link>
                                 </li>
                                 <li className={activeItem === 'Privacy Policy' ? 'active' : 'nav-item'} onClick={() => setActiveItem('Privacy Policy')}>
                                     <Nav.Link href='/weMarket/privacy-policy'>Privacy Policy</Nav.Link>
                                 </li>
                             </ul>
                             <div className="ms-auto">
-                                <Link to="#" className="btn bg-gradiant">Login</Link>
+                                <Link to="#" className="btn bg-gradiant">Contact Us</Link>
                             </div>
                         </div>
                     </Container>

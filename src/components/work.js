@@ -12,7 +12,7 @@ const section = () => {
 
   return (
     <React.Fragment>
-      <div className="section home-3" id="home" style = {{background:"#FFFFF"}}>
+      <div className="section home-3" id="home" style = {{background:"#FFFFF", padding: '0px'}}>
       
         <Container>
           <Row className="align-items-center justify-content-between">

@@ -10,6 +10,7 @@ import image1 from '../assets/images/apart/3.png';
 import image2 from '../assets/images/apart/2.png';
 import image3 from '../assets/images/apart/1.png';
 import hero from '../assets/images/apart/main.png';
+import elipse from "../assets/images/home/Ellipse.png"
 const Pricing = () => {
   return (
     <React.Fragment>
@@ -18,6 +19,7 @@ const Pricing = () => {
           <div className="row justify-content-center">
             <div className="col-lg-12" data-aos="fade-up" style={{ marginBottom: '60px' }}>
               <div className="text-center">
+                <img src={elipse} alt="" className="img-fluid" style={{ marginLeft: '80px' }} />
                 <h2 className="sec-title">What sets us apart?</h2>
               </div>
             </div>
