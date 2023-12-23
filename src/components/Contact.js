@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import home1 from "../assets/images/home/home1-2.png"
 import elipse from "../assets/images/home/Ellipse.png"
 import b from "../assets/images/b.png";
+import sec from '../assets/images/sec.png';
 
 AOS.init({
   duration: 1800,
@@ -21,9 +22,9 @@ const section = () => {
 
   return (
 
-    <div className="section home-3" id="contact" style={{ background: "#ECFDFF", padding: '0px' }}>
+    <div className="section home-3" id="contact" style={{ background: "#FFFFF", padding: '0px' }}>
 
-      <Container>
+      {/* <Container>
         <Row className="align-items-center justify-content-between">
           <Col md={6}>
             <div className="home-heading">
@@ -63,8 +64,11 @@ const section = () => {
           <img src={b} alt="" style={{ height: '100%', width: '100%' }} />
         </div>
       </Row>
-    </Container>
+    </Container> */}
+      <img src={sec} alt="" style={{ height: '100%', width: '100%' }} />
+
         </div >
+
 
 
   )

@@ -11,8 +11,10 @@ import image2 from '../assets/images/apart/2.png';
 import image3 from '../assets/images/apart/1.png';
 import hero from '../assets/images/apart/main.png';
 import elipse from "../assets/images/home/Ellipse.png"
+
 const Pricing = () => {
   return (
+    
     <React.Fragment>
       <section className="section pricing" id="pricing">
         <Container>
@@ -26,7 +28,7 @@ const Pricing = () => {
           </div>
           <Row className="justify-content-center">
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box">
+              <div className="pricing-box" style={{boxShadow: '0px 0px 1px 0px #cfd4d0', border: '0px solid #ffffff'}}>
                 <div className="px-4 py-5">
                   <div className="text-primary">
                     <img src={image1} alt="" className="img-fluid d-block" />
@@ -39,7 +41,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box pricing-active">
+              <div className="pricing-box pricing-active shadow" style={{boxShadow: '0px 0px 0px 0px #cfd4d0', border: '0px solid #ffffff'}} >
                 <div className="px-4 py-5">
                   <div className="text-primary">
                     <img src={image2} alt="" className="img-fluid d-block" />
@@ -50,7 +52,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col lg={4} md={6} mt={4}>
-              <div className="pricing-box">
+              <div className="pricing-box" style={{boxShadow: '0px 0px 1px 0px #cfd4d0', border: '0px solid #ffffff'}}>
                 <div className="px-4 py-5">
                   <div className="text-primary">
                     <img src={image3} alt="" className="img-fluid d-block" />
