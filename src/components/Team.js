@@ -20,7 +20,7 @@ const Team = () => {
           <img src={elipse} alt="" className="img-fluid" style={{ marginLeft: '40px' , width: '60px', height: '30px'}} />
           <h3 style={{color:'#060640'}}>Ready to begin your journey to unprecedented success?<br></br>
             Start with our form below.</h3>
-          <button className="btn btn-primary" style={{width:'200px',borderRadius: '10px', fontSize: '14px', marginTop: '20px' }}>Go to Form</button>
+          <Link to="https://forms.gle/oyigCHuuP2z8C6xP6"style={{width:'200px',borderRadius: '10px', fontSize: '14px', marginTop: '20px' }} className="btn bg-gradiant">Go to Form</Link>
         </div>
       </div>
       </Container>
