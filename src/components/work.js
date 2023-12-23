@@ -19,7 +19,7 @@ const section = () => {
             <Col md={6}>
               <div className="home-heading">
                 <img src={elipse} alt="" className="img-fluid" />
-                <h4 className="home-title">We deliver a customized experience that elevates your business</h4>
+                <h4 style={{color:'#060640'}} className="home-title">We deliver a customized experience that elevates your business</h4>
                 <p className="text-muted">Our ready to enroll lead generation process begins with a meticulous understanding of the dynamic landscapes within the realms of Obamacare, Medicare, and Final Expense planning. We employ cutting-edge market analysis tools and industry insights to pinpoint high-potential demographics, ensuring our leads are finely tuned and tailored to the specific needs of insurance agents.</p>
               </div>
             </Col>

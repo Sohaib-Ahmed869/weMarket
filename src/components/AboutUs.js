@@ -8,7 +8,7 @@ import {
 
 const AboutUs = () => {
   const styleText = {
-    color: '#1E266D',
+    color: '#060640',
     fontSize: '19px',
     fontWeight: 'bold',
     textAlign: 'center',

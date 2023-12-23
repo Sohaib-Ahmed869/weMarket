@@ -26,9 +26,9 @@ const section = () => {
               <div className="home-heading" style={{padding: '200px'}}>
                 <img src={elipse} alt="" className="img-fluid" />
                 <h4
-                
+                style={{color:'#060640'}}
                  className="home-title">Discover unmatched success in Obamacare, Medicare, and Final Expense markets</h4>
-                <p className="text-muted">Looking to expand your book of business? Discover unmatched success in Obamacare, Medicare, and Final Expense markets through We Market You Sell.Redefine what success means to you!</p>
+                <p style={{fontWeight: 'bold'}} className="text-muted">Looking to expand your book of business? Discover unmatched success in Obamacare, Medicare, and Final Expense markets through We Market You Sell.Redefine what success means to you!</p>
               </div>
             </div>
             <div style={{width: '100%', height: '90%'}}>
